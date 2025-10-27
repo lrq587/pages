@@ -1,0 +1,267 @@
+/* Global Theme */
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --text: #2b2b2b;
+  --muted: #6e6e6e;
+  --primary-green: #7bb47e; /* 牛油果绿（低饱和） */
+  --primary-blue: #7cc0d8;  /* 浅蓝（低饱和） */
+  --border: #e6e6e6;
+  --card-grad-start: rgba(124, 192, 216, 0.15);
+  --card-grad-end: rgba(123, 180, 126, 0.15);
+  --shadow: 0 6px 18px rgba(0,0,0,0.08);
+  --shadow-hover: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: var(--text);
+}
+.brand .logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+  box-shadow: var(--shadow);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.nav-links a, .nav-links button {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.nav-links a:hover, .nav-links button:hover {
+  background: rgba(124, 192, 216, 0.12);
+  border-color: var(--border);
+}
+
+/* Dropdown */
+.dropdown { position: relative; }
+.dropdown-toggle { cursor: pointer; }
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  min-width: 240px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 8px;
+  display: none;
+}
+.dropdown.open .dropdown-menu { display: block; }
+.dropdown-menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+}
+.dropdown-menu a:hover { background: #f1f5f9; }
+
+/* Hero */
+.hero {
+  max-width: 1200px;
+  margin: 24px auto 0;
+  padding: 24px 20px 10px;
+}
+.hero-banner {
+  position: relative;
+  height: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(123,180,126,0.35), rgba(124,192,216,0.35));
+  box-shadow: var(--shadow);
+}
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://picsum.photos/seed/fresh-ingredients/1200/900");
+  background-size: cover;
+  background-position: center;
+  filter: saturate(90%) contrast(98%) brightness(98%);
+  opacity: 0.35;
+}
+.hero-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text);
+}
+.hero-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+.hero-subtitle {
+  font-size: 16px;
+  color: var(--muted);
+}
+
+/* Card Grid */
+.grid {
+  max-width: 1200px;
+  margin: 18px auto;
+  padding: 0 20px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.card {
+  background: linear-gradient(180deg, var(--card-grad-start), var(--card-grad-end));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+.card-header {
+  padding: 14px 14px 0;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.card-body { padding: 0 14px 14px; }
+.card-meta { font-size: 13px; color: var(--muted); }
+
+/* Image */
+.card-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: transform .25s ease;
+}
+.card:hover .card-image { transform: scale(1.03); }
+
+/* Lists & Text */
+ul { margin: 8px 0; padding-left: 18px; }
+li { margin: 6px 0; }
+.highlight { color: var(--primary-green); font-weight: 700; }
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 10px;
+  padding: 12px 20px 24px;
+  justify-content: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-hover); background: #f8fafc; }
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+  color: #fff;
+  border: none;
+}
+.btn-primary:hover { filter: brightness(1.05); }
+
+/* Page Sections */
+.page {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px 30px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.page-title { font-size: 22px; font-weight: 800; margin: 6px 0; }
+.page-subtitle { color: var(--muted); font-size: 14px; }
+
+/* Ingredients Checklist */
+.checklist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.checklist .group {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 12px;
+}
+.group-title { font-weight: 700; margin-bottom: 8px; }
+.check-item { display: flex; align-items: center; gap: 8px; padding: 6px 0; }
+.check-item input { width: 18px; height: 18px; }
+
+/* Footer actions */
+.page-actions { display: flex; gap: 10px; justify-content: center; padding: 16px 0 24px; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .checklist { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+  .checklist { grid-template-columns: 1fr; }
+  .navbar .container { padding: 10px 14px; }
+  .nav-links { display: none; }
+  .nav-links.open { display: flex; flex-direction: column; align-items: flex-start; padding: 10px 0; }
+}

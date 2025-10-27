@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>食材总清单 · 一周低卡减肥食谱</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="page-header">
+      <h2 class="page-title">食材总清单</h2>
+      <div class="page-subtitle">按类别汇总一周所需食材，可勾选已采购；数据保存在浏览器本地。</div>
+    </div>
+
+    <div class="page-actions">
+      <button id="clear-checked" class="btn">清空勾选</button>
+    </div>
+
+    <section class="checklist">
+      <div class="group">
+        <div class="group-title">蛋白类</div>
+        <label class="check-item"><input type="checkbox" id="ing-chicken" data-id="chicken"> 鸡胸 1.2kg</label>
+        <label class="check-item"><input type="checkbox" id="ing-fish" data-id="cod"> 鳕鱼 1kg / 三文鱼 800g</label>
+        <label class="check-item"><input type="checkbox" id="ing-shrimp" data-id="shrimp"> 虾仁 1kg</label>
+        <label class="check-item"><input type="checkbox" id="ing-eggs" data-id="eggs"> 鸡蛋 2 打</label>
+        <label class="check-item"><input type="checkbox" id="ing-beef" data-id="beef"> 瘦牛肉/牛腩 1kg</label>
+        <label class="check-item"><input type="checkbox" id="ing-yogurt" data-id="yogurt"> 低脂酸奶 6 杯</label>
+      </div>
+
+      <div class="group">
+        <div class="group-title">蔬菜水果</div>
+        <label class="check-item"><input type="checkbox" id="ing-broccoli" data-id="broccoli"> 西兰花 2 颗</label>
+        <label class="check-item"><input type="checkbox" id="ing-asparagus" data-id="asparagus"> 芦笋 1 把</label>
+        <label class="check-item"><input type="checkbox" id="ing-spinach" data-id="spinach"> 菠菜 1 把</label>
+        <label class="check-item"><input type="checkbox" id="ing-tomato" data-id="tomato"> 番茄 8-10 个</label>
+        <label class="check-item"><input type="checkbox" id="ing-pumpkin" data-id="pumpkin"> 南瓜 1 小个</label>
+        <label class="check-item"><input type="checkbox" id="ing-corn" data-id="corn"> 玉米 6 根</label>
+        <label class="check-item"><input type="checkbox" id="ing-kiwi" data-id="kiwi"> 奇异果 4-6 个</label>
+        <label class="check-item"><input type="checkbox" id="ing-apple" data-id="apple"> 苹果 6-8 个</label>
+        <label class="check-item"><input type="checkbox" id="ing-berries" data-id="berries"> 蓝莓 2 盒</label>
+        <label class="check-item"><input type="checkbox" id="ing-lettuce" data-id="lettuce"> 生菜/菜心 若干</label>
+        <label class="check-item"><input type="checkbox" id="ing-cucumber" data-id="cucumber"> 黄瓜 3-4 根</label>
+        <label class="check-item"><input type="checkbox" id="ing-mushroom" data-id="mushroom"> 香菇/口蘑 500g</label>
+      </div>
+
+      <div class="group">
+        <div class="group-title">谷物主食</div>
+        <label class="check-item"><input type="checkbox" id="ing-oats" data-id="oats"> 燕麦片 1 袋</label>
+        <label class="check-item"><input type="checkbox" id="ing-brownrice" data-id="brownrice"> 糙米 2kg</label>
+        <label class="check-item"><input type="checkbox" id="ing-quinoa" data-id="quinoa"> 藜麦 1kg</label>
+        <label class="check-item"><input type="checkbox" id="ing-soba" data-id="soba"> 荞麦面 500g</label>
+        <label class="check-item"><input type="checkbox" id="ing-bread" data-id="bread"> 全麦吐司 1 条</label>
+        <label class="check-item"><input type="checkbox" id="ing-sweetpotato" data-id="sweetpotato"> 红/紫薯 2-3 个</label>
+      </div>
+
+      <div class="group">
+        <div class="group-title">乳制品/饮品/其他</div>
+        <label class="check-item"><input type="checkbox" id="ing-soymilk" data-id="soymilk"> 无糖豆浆 2L</label>
+        <label class="check-item"><input type="checkbox" id="ing-milk" data-id="milk"> 脱脂牛奶 2L</label>
+        <label class="check-item"><input type="checkbox" id="ing-nuts" data-id="nuts"> 混合坚果 300g</label>
+        <label class="check-item"><input type="checkbox" id="ing-chia" data-id="chia"> 奇亚籽 200g</label>
+        <label class="check-item"><input type="checkbox" id="ing-tea" data-id="tea"> 绿茶/黑咖啡</label>
+        <label class="check-item"><input type="checkbox" id="ing-seasoning" data-id="seasoning"> 基础调料（橄榄油、黑胡椒、盐）</label>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

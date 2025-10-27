@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>周一 · 低卡减肥食谱</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page" id="day-content">
+    <div class="page-header">
+      <h2 class="page-title">周一食谱</h2>
+      <div class="page-subtitle">当日总热量 ≈ <span class="highlight">1400</span> 大卡</div>
+    </div>
+
+    <section class="grid">
+      <!-- 早餐 -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">早餐 · 燕麦豆浆 + 水煮蛋 <span class="card-meta">(350 大卡)</span></h3>
+        </div>
+        <img class="card-image" src="https://picsum.photos/seed/oats-eggs/800/600" alt="燕麦豆浆配水煮蛋" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：燕麦片、无糖豆浆、鸡蛋</p>
+          <ul>
+            <li>燕麦片加热水或小火煮至软</li>
+            <li>鸡蛋水煮 8-10 分钟</li>
+            <li>搭配无糖豆浆食用</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>高蛋白 + 高纤维，饱腹感强</p>
+        </div>
+      </div>
+
+      <!-- 午餐 -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">午餐 · 清蒸鸡胸 + 西兰花 + 糙米 <span class="card-meta">(500 大卡)</span></h3>
+        </div>
+        <img class="card-image" src="https://picsum.photos/seed/chicken-broccoli/800/600" alt="清蒸鸡胸配西兰花糙米" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鸡胸(150g)、西兰花(200g)、糙米(100g熟)</p>
+          <ul>
+            <li>鸡胸加少许盐蒸 10-12 分钟</li>
+            <li>西兰花焯水后少油快炒</li>
+            <li>糙米提前浸泡后蒸熟</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>高蛋白、维生素 C 丰富，控油少盐</p>
+        </div>
+      </div>
+
+      <!-- 晚餐 -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">晚餐 · 番茄虾仁 + 炒时蔬 + 紫薯 <span class="card-meta">(520 大卡)</span></h3>
+        </div>
+        <img class="card-image" src="https://picsum.photos/seed/tomato-shrimp/800/600" alt="番茄虾仁炒时蔬配紫薯" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：虾仁(150g)、番茄、混合蔬菜、紫薯(150g)</p>
+          <ul>
+            <li>虾仁快炒至变色后装盘</li>
+            <li>番茄切丁快速翻炒</li>
+            <li>紫薯蒸熟</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>优质蛋白 + 抗氧化番茄红素</p>
+        </div>
+      </div>
+
+      <!-- 加餐 -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">加餐 · 低脂原味酸奶 <span class="card-meta">(120 大卡)</span></h3>
+        </div>
+        <img class="card-image" src="https://picsum.photos/seed/yogurt/800/600" alt="低脂原味酸奶" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：低脂酸奶(150g)</p>
+          <ul>
+            <li>冷藏后开盖即食</li>
+            <li>可加少量奇亚籽（可选）</li>
+            <li>控制总量，避免过甜添加</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>益生菌 + 钙质补充</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-actions">
+      <button class="btn" onclick="printPage()">打印当日食谱</button>
+      <button class="btn btn-primary" onclick="saveSectionAsImage('#day-content','周一食谱.png')">保存图片</button>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

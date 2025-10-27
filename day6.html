@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>周六 · 低卡减肥食谱</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page" id="day-content">
+    <div class="page-header">
+      <h2 class="page-title">周六食谱</h2>
+      <div class="page-subtitle">当日总热量 ≈ <span class="highlight">1440</span> 大卡</div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">早餐 · 蛋白蔬菜煎饼 <span class="card-meta">(360 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/veggie-pancake/800/600" alt="蛋白蔬菜煎饼" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鸡蛋、菠菜、蘑菇</p>
+          <ul>
+            <li>鸡蛋加蔬菜糊，少油煎至定型</li>
+            <li>控制用油，避免过多</li>
+            <li>搭配无糖饮品</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>蛋白质 + 蔬菜纤维</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">午餐 · 番茄牛腩(瘦) + 蔬菜拼盘 + 藜麦 <span class="card-meta">(540 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/tomato-beef-quinoa/800/600" alt="番茄牛腩蔬菜拼盘藜麦" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：瘦牛腩、番茄、杂蔬、藜麦(100g熟)</p>
+          <ul>
+            <li>牛腩与番茄炖煮至软烂</li>
+            <li>蔬菜拼盘蒸或焯水</li>
+            <li>配熟藜麦</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>补铁 + 高纤维</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">晚餐 · 清炒鸡胸 + 西葫芦 + 南瓜 <span class="card-meta">(480 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/chicken-zucchini-pumpkin/800/600" alt="清炒鸡胸西葫芦南瓜" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鸡胸、西葫芦(200g)、南瓜(150g)</p>
+          <ul>
+            <li>鸡胸切片快炒</li>
+            <li>西葫芦片少油翻炒</li>
+            <li>南瓜蒸熟</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>低脂蛋白 + 维生素 A</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">加餐 · 奇异果(1个) <span class="card-meta">(60 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/kiwi/800/600" alt="奇异果加餐" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：奇异果</p>
+          <ul>
+            <li>去皮切块食用</li>
+            <li>选择成熟度适中</li>
+            <li>最好在下午时段食用</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>维生素 C + 膳食纤维</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-actions">
+      <button class="btn" onclick="printPage()">打印当日食谱</button>
+      <button class="btn btn-primary" onclick="saveSectionAsImage('#day-content','周六食谱.png')">保存图片</button>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

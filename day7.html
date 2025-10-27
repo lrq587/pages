@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>周日 · 低卡减肥食谱</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page" id="day-content">
+    <div class="page-header">
+      <h2 class="page-title">周日食谱</h2>
+      <div class="page-subtitle">当日总热量 ≈ <span class="highlight">1450</span> 大卡</div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">早餐 · 银耳燕麦羹 + 水煮蛋 <span class="card-meta">(340 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/oat-soup/800/600" alt="银耳燕麦羹水煮蛋" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：银耳、燕麦、鸡蛋</p>
+          <ul>
+            <li>银耳煮软与燕麦同煮成羹</li>
+            <li>鸡蛋水煮</li>
+            <li>避免加糖，清淡口</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>胶质口感，温润易消化</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">午餐 · 蒸虾 + 蔬菜拼盘 + 糙米 <span class="card-meta">(500 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/steamed-shrimp/800/600" alt="蒸虾蔬菜糙米" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：虾、西兰花/彩椒、糙米(80g熟)</p>
+          <ul>
+            <li>虾蒸熟</li>
+            <li>蔬菜拼盘蒸或焯水</li>
+            <li>配糙米</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>低脂海鲜 + 多彩蔬菜</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">晚餐 · 清炖鸡腿去皮 + 生菜沙拉 + 玉米 <span class="card-meta">(520 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/chicken-salad-corn/800/600" alt="清炖鸡腿沙拉玉米" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鸡腿(去皮)、生菜沙拉、玉米(1)</p>
+          <ul>
+            <li>鸡腿去皮清炖少盐</li>
+            <li>生菜沙拉少油少酱</li>
+            <li>玉米蒸熟</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>低脂蛋白 + 复合碳水</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">加餐 · 脱脂牛奶 (200ml) <span class="card-meta">(90 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/skim-milk/800/600" alt="脱脂牛奶加餐" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：脱脂牛奶</p>
+          <ul>
+            <li>冷藏后饮用</li>
+            <li>晚间适量饮用</li>
+            <li>避免与咖啡同时大量饮用</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>高钙低脂，助眠适量</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-actions">
+      <button class="btn" onclick="printPage()">打印当日食谱</button>
+      <button class="btn btn-primary" onclick="saveSectionAsImage('#day-content','周日食谱.png')">保存图片</button>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

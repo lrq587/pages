@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>周四 · 低卡减肥食谱</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page" id="day-content">
+    <div class="page-header">
+      <h2 class="page-title">周四食谱</h2>
+      <div class="page-subtitle">当日总热量 ≈ <span class="highlight">1370</span> 大卡</div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">早餐 · 低脂酸奶 + 蓝莓 + 奇亚籽 <span class="card-meta">(330 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/yogurt-blueberry/800/600" alt="酸奶蓝莓奇亚籽" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：低脂酸奶、蓝莓、奇亚籽</p>
+          <ul>
+            <li>酸奶中拌入蓝莓与奇亚籽</li>
+            <li>奇亚籽提前浸泡口感更佳</li>
+            <li>控制总量避免过甜添加</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>抗氧化 + 膳食纤维</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">午餐 · 菌菇鸡胸汤 + 蔬菜拼盘 + 糙米 <span class="card-meta">(470 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/mushroom-chicken-soup/800/600" alt="菌菇鸡胸汤蔬菜拼盘糙米" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鸡胸、香菇、口蘑、糙米(80g熟)</p>
+          <ul>
+            <li>鸡胸与菌菇煲汤，少盐少油</li>
+            <li>蔬菜拼盘蒸或焯水</li>
+            <li>配糙米</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>轻烹饪，热量可控</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">晚餐 · 清蒸鳕鱼 + 芦笋 + 红薯 <span class="card-meta">(510 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/cod-asparagus/800/600" alt="清蒸鳕鱼芦笋红薯" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：鳕鱼(150g)、芦笋(200g)、红薯(150g)</p>
+          <ul>
+            <li>鳕鱼蒸熟加胡椒去腥</li>
+            <li>芦笋焯水后少油翻炒</li>
+            <li>红薯蒸熟</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>低脂优质蛋白 + 维生素 K</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><h3 class="card-title">加餐 · 黄瓜条 + 小番茄 <span class="card-meta">(60 大卡)</span></h3></div>
+        <img class="card-image" src="https://picsum.photos/seed/cucumber-tomato/800/600" alt="黄瓜小番茄" />
+        <div class="card-body">
+          <p class="card-meta">核心食材：黄瓜、小番茄</p>
+          <ul>
+            <li>清洗切条搭配食用</li>
+            <li>可加少量黑胡椒提味</li>
+            <li>避免重口蘸料</li>
+          </ul>
+          <p><span class="highlight">营养亮点：</span>低热量补水，清爽解腻</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-actions">
+      <button class="btn" onclick="printPage()">打印当日食谱</button>
+      <button class="btn btn-primary" onclick="saveSectionAsImage('#day-content','周四食谱.png')">保存图片</button>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

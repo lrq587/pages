@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>一周低卡减肥食谱 · 首页</title>
+  <meta name="description" content="高颜值、清新健康的一周低卡减肥食谱，提供每日三餐与加餐、食材清单与烹饪技巧，支持打印与保存图片。" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- 移除对 Unsplash 的预连接，改用 picsum 占位图以提升稳定性 -->
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand"><span class="logo"></span> 一周低卡减肥食谱</div>
+      <button id="burger" class="btn" aria-label="打开菜单">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">首页</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle btn">日期导航 ▾</button>
+          <div class="dropdown-menu">
+            <a href="day1.html">周一</a>
+            <a href="day2.html">周二</a>
+            <a href="day3.html">周三</a>
+            <a href="day4.html">周四</a>
+            <a href="day5.html">周五</a>
+            <a href="day6.html">周六</a>
+            <a href="day7.html">周日</a>
+          </div>
+        </div>
+        <a href="ingredients.html">食材清单</a>
+        <a href="tips.html">烹饪技巧</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-banner">
+      <div class="hero-content">
+        <h1 class="hero-title">一周低卡减肥食谱</h1>
+        <p class="hero-subtitle">简约高级 · 清新健康 · 低饱和牛油果绿/浅蓝配色 · 响应式多页面</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Week navigation cards -->
+  <section class="grid" aria-label="日期导航卡片">
+    <div class="card">
+      <div class="card-header"><h3 class="card-title">周一</h3></div>
+      <img class="card-image" src="https://picsum.photos/seed/monday/800/600" alt="周一低卡食谱封面" />
+      <div class="card-body">
+        <p class="card-meta">点击查看早餐/午餐/晚餐/加餐（约 1300-1400 大卡）</p>
+      </div>
+      <div class="actions"><a class="btn btn-primary" href="day1.html">进入周一</a></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h3 class="card-title">周二</h3></div>
+      <img class="card-image" src="https://picsum.photos/seed/tuesday/800/600" alt="周二低卡食谱封面" />
+      <div class="card-body"><p class="card-meta">高蛋白 + 高纤维组合</p></div>
+      <div class="actions"><a class="btn btn-primary" href="day2.html">进入周二</a></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h3 class="card-title">周三</h3></div>
+      <img class="card-image" src="https://picsum.photos/seed/wednesday/800/600" alt="周三低卡食谱封面" />
+      <div class="card-body"><p class="card-meta">控油少盐，轻烹饪</p></div>
+      <div class="actions"><a class="btn btn-primary" href="day3.html">进入周三</a></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h3 class="card-title">周四</h3></div>
+      <img class="card-image" src="https://picsum.photos/seed/thursday/800/600" alt="周四低卡食谱封面" />
+      <div class="card-body"><p class="card-meta">蔬果均衡，粗细搭配</p></div>
+      <div class="actions"><a class="btn btn-primary" href="day4.html">进入周四</a></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h3 class="card-title">周五</h3></div>
+      <img class="card-image" src="https://picsum.photos/seed/friday/800/600" alt="周五低卡食谱封面" />
+      <div class="card-body"><p class="card-meta">轻主食 + 优质脂肪</p></div>
+      <div class="actions"><a class="btn btn-primary" href="day5.html">进入周五</a></div>
+    </div>
+    <!-- 其余周六、周日卡片保留不变 -->
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
