@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="备餐称重">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FBF3"/>
+      <stop offset="100%" stop-color="#E3F6FE"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g5)"/>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="250" y="260" width="300" height="160" rx="20"/>
+    <circle cx="400" cy="240" r="40"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#174B2D" opacity="0.9">备餐称重</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#174B2D" opacity="0.7">精准控制分量 · 提升减脂效率</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="主食与蛋白质比例">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DDF3E2"/>
+      <stop offset="100%" stop-color="#C8EAF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g3)"/>
+  <g fill="#ffffff" opacity="0.25">
+    <circle cx="260" cy="320" r="120"/>
+    <circle cx="540" cy="320" r="90"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="40" fill="#174B2D" opacity="0.9">主食与蛋白质比例</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#174B2D" opacity="0.7">控碳适量 · 优选低脂高蛋白</text>
+</svg>

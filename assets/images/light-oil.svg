@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="轻油烹饪">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E7F8EC"/>
+      <stop offset="100%" stop-color="#D6F1FD"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g4)"/>
+  <g fill="#ffffff" opacity="0.25">
+    <ellipse cx="300" cy="360" rx="140" ry="90"/>
+    <ellipse cx="560" cy="260" rx="100" ry="70"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#174B2D" opacity="0.9">轻油烹饪</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#174B2D" opacity="0.7">少油少盐 · 保持清爽与健康</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="蒸煮焯烤空气炸">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B9E6C9"/>
+      <stop offset="100%" stop-color="#A7D8F0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g1)"/>
+  <g fill="#ffffff" opacity="0.25">
+    <circle cx="120" cy="520" r="80"/>
+    <circle cx="700" cy="140" r="60"/>
+    <circle cx="420" cy="300" r="140"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#174B2D" opacity="0.9">蒸 · 煮 · 焯 · 烤 · 空气炸</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#174B2D" opacity="0.7">低油更健康 · 保留营养与口感</text>
+</svg>

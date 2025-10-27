@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="香草香料">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#CFEAD6"/>
+      <stop offset="100%" stop-color="#B6E1F5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g2)"/>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="80" y="420" width="140" height="100" rx="14"/>
+    <rect x="600" y="120" width="120" height="80" rx="12"/>
+    <rect x="320" y="280" width="180" height="120" rx="16"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#174B2D" opacity="0.9">香草 · 香料</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#174B2D" opacity="0.7">用味道替代盐与糖 · 轻负担更美味</text>
+</svg>
