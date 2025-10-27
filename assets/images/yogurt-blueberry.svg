@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 酸奶杯 -->
+  <ellipse cx="400" cy="450" rx="80" ry="15" fill="#E8E8E8"/>
+  <rect x="320" y="300" width="160" height="150" fill="#F5F5F5" rx="10"/>
+  <rect x="325" y="305" width="150" height="140" fill="#FFFFFF" rx="8"/>
+  
+  <!-- 酸奶 -->
+  <ellipse cx="400" cy="380" rx="70" ry="60" fill="#FFFAF0"/>
+  <ellipse cx="400" cy="370" rx="65" ry="55" fill="#FFF8DC"/>
+  
+  <!-- 蓝莓 -->
+  <circle cx="370" cy="340" r="8" fill="#4169E1"/>
+  <circle cx="390" cy="350" r="6" fill="#4169E1"/>
+  <circle cx="410" cy="345" r="7" fill="#4169E1"/>
+  <circle cx="430" cy="355" r="6" fill="#4169E1"/>
+  <circle cx="385" cy="365" r="5" fill="#4169E1"/>
+  
+  <!-- 奇亚籽 -->
+  <circle cx="375" cy="375" r="1" fill="#2F4F4F"/>
+  <circle cx="395" cy="380" r="1" fill="#2F4F4F"/>
+  <circle cx="415" cy="375" r="1" fill="#2F4F4F"/>
+  <circle cx="405" cy="390" r="1" fill="#2F4F4F"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">酸奶蓝莓奇亚籽</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">益生菌 · 抗氧化 · 330大卡</text>
+</svg>

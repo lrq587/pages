@@ -118,7 +118,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("https://picsum.photos/seed/fresh-ingredients/1200/900");
+ background-image: url("assets/images/healthy-meal.svg");
   background-size: cover;
   background-position: center;
   filter: saturate(90%) contrast(98%) brightness(98%);

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="450" rx="180" ry="25" fill="#E8E8E8"/>
+  <ellipse cx="400" cy="445" rx="180" ry="25" fill="#F5F5F5"/>
+  
+  <!-- 番茄炒蛋 -->
+  <ellipse cx="350" cy="380" rx="45" ry="30" fill="#FFD700"/>
+  <ellipse cx="350" cy="375" rx="40" ry="25" fill="#FFF8DC"/>
+  
+  <!-- 番茄块 -->
+  <ellipse cx="420" cy="370" rx="25" ry="20" fill="#FF6347"/>
+  <ellipse cx="420" cy="365" rx="20" ry="15" fill="#FF7F50"/>
+  <ellipse cx="460" cy="390" rx="20" ry="15" fill="#FF6347"/>
+  <ellipse cx="460" cy="385" rx="15" ry="10" fill="#FF7F50"/>
+  
+  <!-- 菜心 -->
+  <ellipse cx="320" cy="400" rx="12" ry="8" fill="#32CD32"/>
+  <ellipse cx="480" cy="410" rx="10" ry="6" fill="#32CD32"/>
+  <rect x="318" y="405" width="3" height="12" fill="#90EE90"/>
+  <rect x="478" y="415" width="3" height="10" fill="#90EE90"/>
+  
+  <!-- 土豆泥 -->
+  <ellipse cx="400" cy="420" rx="30" ry="15" fill="#F5DEB3"/>
+  <ellipse cx="400" cy="415" rx="25" ry="10" fill="#F8E8A0"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">番茄炒蛋配菜心土豆泥</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">家常美味 · 营养均衡 · 460大卡</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="400" rx="200" ry="120" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="3"/>
+  
+  <!-- 鸡胸肉 -->
+  <ellipse cx="320" cy="380" rx="80" ry="50" fill="#F5DEB3" stroke="#DEB887" stroke-width="2"/>
+  <path d="M260 360 Q320 340 380 360 Q360 400 320 410 Q280 400 260 360" fill="#FAEBD7"/>
+  
+  <!-- 西兰花 -->
+  <circle cx="450" cy="350" r="25" fill="#228B22"/>
+  <circle cx="470" cy="370" r="20" fill="#32CD32"/>
+  <circle cx="430" cy="375" r="22" fill="#228B22"/>
+  <rect x="445" y="390" width="8" height="25" fill="#8FBC8F"/>
+  <rect x="465" y="395" width="6" height="20" fill="#8FBC8F"/>
+  
+  <!-- 糙米 -->
+  <ellipse cx="350" cy="450" rx="60" ry="30" fill="#DEB887"/>
+  <circle cx="330" cy="440" r="3" fill="#F4A460"/>
+  <circle cx="350" cy="445" r="2" fill="#F4A460"/>
+  <circle cx="370" cy="440" r="3" fill="#F4A460"/>
+  <circle cx="340" cy="455" r="2" fill="#F4A460"/>
+  
+  <!-- 装饰文字 -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2E8B57" text-anchor="middle">清蒸鸡胸配西兰花糙米</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">健康午餐 · 500大卡</text>
+</svg>

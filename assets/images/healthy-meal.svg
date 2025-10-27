@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="450" rx="200" ry="30" fill="#E8E8E8"/>
+  <ellipse cx="400" cy="445" rx="200" ry="30" fill="#F5F5F5"/>
+  
+  <!-- 主食区域 -->
+  <ellipse cx="320" cy="380" rx="60" ry="40" fill="#F5DEB3"/>
+  <ellipse cx="320" cy="375" rx="55" ry="35" fill="#F8E8A0"/>
+  
+  <!-- 蛋白质区域 -->
+  <ellipse cx="400" cy="360" rx="50" ry="35" fill="#F4E4BC"/>
+  <ellipse cx="400" cy="355" rx="45" ry="30" fill="#F8E8C6"/>
+  
+  <!-- 蔬菜区域 -->
+  <circle cx="480" cy="380" r="35" fill="#90EE90"/>
+  <circle cx="480" cy="375" r="30" fill="#98FB98"/>
+  
+  <!-- 装饰元素 -->
+  <circle cx="460" cy="340" r="8" fill="#FF6347"/>
+  <circle cx="340" cy="340" r="6" fill="#32CD32"/>
+  <circle cx="420" cy="320" r="5" fill="#FFD700"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">健康餐食</text>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">营养均衡 · 低卡美味</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="20" fill="#999" text-anchor="middle">主食 + 蛋白质 + 蔬菜</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 汤碗 -->
+  <ellipse cx="400" cy="450" rx="120" ry="20" fill="#E8E8E8"/>
+  <ellipse cx="400" cy="350" rx="120" ry="100" fill="#F5F5F5"/>
+  <ellipse cx="400" cy="340" rx="115" ry="95" fill="#FFFFFF"/>
+  
+  <!-- 汤 -->
+  <ellipse cx="400" cy="350" rx="100" ry="80" fill="#F5E6D3"/>
+  <ellipse cx="400" cy="340" rx="95" ry="75" fill="#F8E8A0"/>
+  
+  <!-- 鸡胸肉块 -->
+  <ellipse cx="370" cy="330" rx="12" ry="8" fill="#F4E4BC"/>
+  <ellipse cx="430" cy="340" rx="10" ry="6" fill="#F4E4BC"/>
+  <ellipse cx="390" cy="360" rx="8" ry="5" fill="#F4E4BC"/>
+  
+  <!-- 蘑菇 -->
+  <ellipse cx="350" cy="350" rx="8" ry="12" fill="#D2B48C"/>
+  <ellipse cx="450" cy="360" rx="6" ry="10" fill="#D2B48C"/>
+  <ellipse cx="410" cy="320" rx="7" ry="11" fill="#D2B48C"/>
+  
+  <!-- 蔬菜丝 -->
+  <path d="M 380 370 Q 390 375 400 370" stroke="#32CD32" stroke-width="2" fill="none"/>
+  <path d="M 420 350 Q 430 355 440 350" stroke="#32CD32" stroke-width="2" fill="none"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">菌菇鸡胸汤</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">清汤暖胃 · 高蛋白 · 490大卡</text>
+</svg>

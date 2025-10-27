@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="400" rx="200" ry="120" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="3"/>
+  
+  <!-- 虾仁 -->
+  <path d="M300 350 Q320 330 350 340 Q370 350 360 370 Q340 380 320 375 Q300 370 300 350" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M280 380 Q300 360 330 370 Q350 380 340 400 Q320 410 300 405 Q280 400 280 380" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  
+  <!-- 番茄块 -->
+  <circle cx="450" cy="360" r="25" fill="#FF6347"/>
+  <circle cx="480" cy="380" r="20" fill="#FF4500"/>
+  <circle cx="420" cy="385" r="22" fill="#FF6347"/>
+  
+  <!-- 时蔬 -->
+  <ellipse cx="350" cy="420" rx="30" ry="15" fill="#90EE90" transform="rotate(15 350 420)"/>
+  <ellipse cx="380" cy="440" rx="25" ry="12" fill="#98FB98" transform="rotate(-10 380 440)"/>
+  
+  <!-- 紫薯 -->
+  <ellipse cx="500" cy="450" rx="40" ry="25" fill="#8A2BE2"/>
+  <ellipse cx="500" cy="445" rx="35" ry="20" fill="#9370DB"/>
+  
+  <!-- 装饰文字 -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#2E8B57" text-anchor="middle">番茄虾仁炒时蔬配紫薯</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">营养晚餐 · 520大卡</text>
+</svg>

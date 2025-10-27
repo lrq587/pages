@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="400" rx="200" ry="30" fill="#E8E8E8"/>
+  <ellipse cx="400" cy="395" rx="200" ry="30" fill="#F5F5F5"/>
+  
+  <!-- 鸡胸蔬菜卷 -->
+  <ellipse cx="320" cy="350" rx="80" ry="40" fill="#F4E4BC"/>
+  <ellipse cx="320" cy="345" rx="75" ry="35" fill="#F8E8C6"/>
+  
+  <!-- 卷内的蔬菜 -->
+  <rect x="280" y="335" width="80" height="8" fill="#90EE90" rx="4"/>
+  <rect x="285" y="345" width="70" height="6" fill="#FF6347" rx="3"/>
+  <rect x="290" y="355" width="60" height="5" fill="#32CD32" rx="2"/>
+  
+  <!-- 藜麦 -->
+  <ellipse cx="480" cy="360" rx="60" ry="25" fill="#DEB887"/>
+  <circle cx="460" cy="350" r="3" fill="#F5DEB3"/>
+  <circle cx="470" cy="355" r="2" fill="#F5DEB3"/>
+  <circle cx="485" cy="352" r="3" fill="#F5DEB3"/>
+  <circle cx="495" cy="358" r="2" fill="#F5DEB3"/>
+  <circle cx="475" cy="365" r="2" fill="#F5DEB3"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">鸡胸蔬菜卷配藜麦</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">低脂蛋白 · 高纤维谷物 · 480大卡</text>
+</svg>

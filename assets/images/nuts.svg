@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 小碗 -->
+  <ellipse cx="400" cy="380" rx="120" ry="80" fill="#F5F5DC" stroke="#D2B48C" stroke-width="3"/>
+  <ellipse cx="400" cy="370" rx="110" ry="70" fill="#FFFACD"/>
+  
+  <!-- 坚果 -->
+  <ellipse cx="380" cy="350" rx="12" ry="8" fill="#8B4513" transform="rotate(15 380 350)"/>
+  <ellipse cx="420" cy="360" rx="10" ry="6" fill="#A0522D" transform="rotate(-20 420 360)"/>
+  <ellipse cx="390" cy="380" rx="14" ry="9" fill="#8B4513" transform="rotate(30 390 380)"/>
+  <ellipse cx="410" cy="340" rx="11" ry="7" fill="#A0522D" transform="rotate(-10 410 340)"/>
+  <ellipse cx="400" cy="370" rx="13" ry="8" fill="#8B4513"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2E8B57" text-anchor="middle">坚果小把</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">健康加餐 · 90大卡</text>
+</svg>

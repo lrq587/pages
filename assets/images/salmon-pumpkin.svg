@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <!-- 盘子 -->
+  <ellipse cx="400" cy="400" rx="200" ry="120" fill="#F8F8FF" stroke="#D3D3D3" stroke-width="3"/>
+  
+  <!-- 三文鱼 -->
+  <ellipse cx="350" cy="370" rx="80" ry="45" fill="#FFA07A" stroke="#FF6347" stroke-width="2"/>
+  <path d="M290 350 Q350 330 410 350 Q390 390 350 400 Q310 390 290 350" fill="#FF7F50"/>
+  
+  <!-- 烤南瓜 -->
+  <ellipse cx="480" cy="380" rx="60" ry="40" fill="#FF8C00"/>
+  <ellipse cx="460" cy="420" rx="50" ry="35" fill="#FFA500"/>
+  <ellipse cx="500" cy="410" rx="45" ry="30" fill="#FF8C00"/>
+  
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2E8B57" text-anchor="middle">香煎三文鱼烤南瓜</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#666" text-anchor="middle">丰富午餐 · 540大卡</text>
+</svg>
